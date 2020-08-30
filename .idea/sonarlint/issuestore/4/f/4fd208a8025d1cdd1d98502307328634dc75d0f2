@@ -1,0 +1,29 @@
+
+Lsquid:S1854f"5Remove this useless assignment to local variable "s".(Ê‰Úú
+O
+squid:S106a"9Replace this use of System.out or System.err by a logger.(Œû™’
+O
+squid:S106j"9Replace this use of System.out or System.err by a logger.(†ıŸĞ
+O
+squid:S106k"9Replace this use of System.out or System.err by a logger.(ŒòÔ‚
+bsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(®ƒ€…
+T
+squid:S106^"9Replace this use of System.out or System.err by a logger.(ßšÕÑøÿÿÿÿ
+O
+squid:S106p"9Replace this use of System.out or System.err by a logger.(ş™À¦
+O
+squid:S106_"9Replace this use of System.out or System.err by a logger.(û”­
+T
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ä¡Ã–ÿÿÿÿÿ
+usquid:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(·î¥îşÿÿÿÿ
+†squid:S13191"jThe type of the "hm" object should be an interface such as "Map" rather than the implementation "HashMap".(Å÷ÃÌüÿÿÿÿ
+psquid:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(«ñ
+Usquid:S4973^"9Use the "equals" method if value comparison was intended.(ßšÕÑøÿÿÿÿ
+T
+squid:S106c"9Replace this use of System.out or System.err by a logger.(ÀÑÓèùÿÿÿÿ
+T
+squid:S106i"9Replace this use of System.out or System.err by a logger.(à„½•üÿÿÿÿ
+„squid:S1319$"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(™©–Û
+O
+squid:S106b"9Replace this use of System.out or System.err by a logger.(‰Ï®ì
+Qsquid:S1854e"5Remove this useless assignment to local variable "i".(Ñì§Åúÿÿÿÿ

@@ -1,0 +1,11 @@
+
+Psquid:S1135"2Complete the task associated to this TODO comment.(´”ñ§8«å‚…³.
+dsquid:S21424"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Õ‹„…³.
+Fsquid:S11485"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Õ‹„…³.
+V
+squid:S106'"9Replace this use of System.out or System.err by a logger.(¤¶¨„8Õ‹„…³.
+asquid:S2276,"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(á˜ ¶8Õ‹„…³.
+Usquid:S1135/"2Complete the task associated to this TODO comment.(úÔ±žøÿÿÿÿ8Õ‹„…³.
+nsquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(¼îšìþÿÿÿÿ8Õ‹„…³.
+Usquid:S1135"2Complete the task associated to this TODO comment.(“ã¿ëøÿÿÿÿ8‰Ï…³.
+Usquid:S1135""2Complete the task associated to this TODO comment.(»á§ùÿÿÿÿ8Õ‹„…³.

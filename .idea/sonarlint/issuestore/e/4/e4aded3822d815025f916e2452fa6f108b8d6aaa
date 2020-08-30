@@ -1,0 +1,17 @@
+
+zsquid:S22731"cMove this call to "wait()" into a synchronized block to be sure the monitor on "Condition" is held.(½ÄçÏ
+Xsquid:S1161*":Add the "@Override" annotation above this method signature(“–ýþ8´éÎª¡.
+?squid:S1148#"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+|squid:S2273 "eMove this call to "notify()" into a synchronized block to be sure the monitor on "Condition" is held.(åÒ§ë
+esquid:S18441"NThe "Condition.await(...)" method should be used instead of "Object.wait(...)"(½ÄçÏ
+T
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ò¦ß×ùÿÿÿÿ
+]squid:S21424"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Usquid:S1135"2Complete the task associated to this TODO comment.(Ñ²ˆ¢ùÿÿÿÿ8âóÙ„³.
+Usquid:S1135,"2Complete the task associated to this TODO comment.(™…”ôüÿÿÿÿ8ýÕÛ„³.
+^squid:S2259<"BA "NullPointerException" could be thrown; "task" is nullable here.(‘†–Úûÿÿÿÿ
+Nsquid:S1135""2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+]squid:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Gsquid:S2446 "0"notify" may not wake up the appropriate thread.(åÒ§ë
+T
+squid:S106>"9Replace this use of System.out or System.err by a logger.(˜ˆ÷»þÿÿÿÿ

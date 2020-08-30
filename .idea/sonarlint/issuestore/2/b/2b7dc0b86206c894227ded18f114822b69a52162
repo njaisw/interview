@@ -1,0 +1,6 @@
+
+O
+squid:S106M"9Replace this use of System.out or System.err by a logger.(çê¦‚
+{squid:S1149'"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(íú™§úÿÿÿÿ
+nsquid:S2737K"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+Tsquid:S11972"8Move the array designator from the variable to the type.(ùï¾ÿÿÿÿÿ

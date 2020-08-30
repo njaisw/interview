@@ -1,0 +1,36 @@
+// Thread invocation :
+
+
+    public class CountingSemaphore_2 {
+
+    	private Semaphore binary = new Semaphore(1);
+
+    	public static void main(String args[]) {
+
+    		final CountingSemaphore_2 test = new CountingSemaphore_2();
+    		//TODO 1st kind invocation
+    		new Thread(() -> test.mutualExclusion()).start();
+            //TODO 2nd kind invocation
+    		new Thread(test::mutualExclusion).start();
+
+    	}
+
+    	private void mutualExclusion() {
+    		try {
+    			binary.acquire();
+
+    			// mutual exclusive region
+    			System.out.println(Thread.currentThread().getName() + " inside mutual exclusive region");
+    			Thread.sleep(1000);
+
+    		} catch (InterruptedException ie) {
+    			ie.printStackTrace();
+    		} finally {
+    			binary.release();
+    			System.out.println(Thread.currentThread().getName() + " outside of mutual exclusive region");
+    		}
+    	}
+
+    }
+
+
