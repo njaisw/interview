@@ -1,1 +1,106 @@
 https://www.xenonstack.com/insights/what-is-grpc/
+Beyond REST
+
+As mentioned above, we recommend starting with a REST API. However, there may be times when a REST API needs to complemented with other API interaction styles.
+
+Below are some additional options commonly used to supplement the capabilities offered by REST APIs, along with tips on when they may be a good fit.
+Webhooks
+
+Webhooks, and a more formal approach called RestHooks, allow server-to-client communication through a POST request.
+
+Unlike WebSockets and SSE, Webhooks do not require a long-lived HTTP connection to push update events.
+
+Instead, the client registers an callback endpoint that will accept POST requests whenever new data is available. Implementing webhooks properly can be a challenge for both the provider and the callback receiver. However, if integrators are able to meet these requirements, Webhooks become a powerful way to receive and process new data and events in a scalable manner.
+
+    Decision criteria: Callback endpoint must be implemented and then deployed on a network that is accessible from the API server that will be sending the POST requests, so careful consideration is required before using this approach. Webhook receivers will also need to ensure they are able to scale their endpoints, otherwise a large number of callbacks could overwhelm their system. Webhooks are not an appropriate fit for browser-based or mobile apps - consider WebSockets or SSE instead.
+
+WebSockets
+
+WebSockets offer bi-directional communication over HTTP. Unlike REST, WebSockets offer a powerful solution for handling client requests and server push scenarios on the same connection.
+
+However, scaling WebSockets can be challenging as the connections last much longer than a traditional REST-based request/response that disconnects once completed.
+
+Engineering teams such as Webex use WebSockets, in combination with an SDK for target programming languages, in order to ease the integration and protocol management burden which comes with WebSocket-based integrations.
+
+Unlike SSE, WebSockets don't natively support catching-up with missed push notifications, requiring custom support for this capability.
+
+    Decision criteria: The solution needs bi-directional communication between the app and server for real time communication. Unlike REST that uses request/response, the app doesn't care if responses arrive immediately or at all and is therefore able to treat the command messages sent to the server independently from notification messages received from the server.
+
+Server-Sent Events
+
+Server-Sent Events, or SSE, offer one-way communication initiated from a server, and over long-live HTTP connections to every individual clients.
+
+SSE offers a simple way to stream data to the client as it becomes available, ensuring that the application remains in-sync with server-side state.
+
+Using SSE also avoids the constant polling of a REST-based API to check for any new or modified data.
+
+SSE may be used for server-to-server integration solutions as well.
+
+    Decision criteria: The solution needs to push notifications from the server to the client in near real time over HTTP rather than periodically using polling. SSE doesn't support bi-directional communication, so use WebSockets if this is required. SSE also supports catching-up with missed events by providing the last event ID received, making it a better choice for streaming data to a client while being easy to catch-up when offline. Verify browser compatibility before using SSE if browser support is required, as not all browsers support SSE.
+
+gRPC
+
+gRPC supports remote procedure calls (RPC) over HTTP/2.
+
+For those not familiar, RPC exposes a function or method directly over the network - in this case, over HTTP/2.
+Since HTTP/2 is recent, most organizations are using gRPC for internal service-to-service communication.
+
+Unlike REST, which support message passing using JSON and other message formats, RPC is strictly typed and tied directly to its implementation.
+
+gRPC uses an interface definition language, referred to as an IDL, to define the remote procedure call interface. gRPC depends heavily on code generation to accelerate development and hide the internal over-the-wire protocol details.
+
+    Decision criteria: Since gRPC requires the use of HTTP/2 to fully take advantage of its features, all proxy servers and API gateways between the client and server must support HTTP/2 as this protocol, which isn't backward compatible with HTTP/1. Since HTTP/2 tooling and support is still early, gRPC is often used for internal service-to-service communications, or when both client and server can be controlled by the API provider.
+
+GraphQL
+
+GraphQL is popular with front-end developers who wish to have the ultimate in flexibility regarding the specific resources and resource fields they wish to receive back in a response.
+
+While REST-based APIs can support the same capabilities, GraphQL reduces the effort required of front-end developers.
+
+GraphQL has opted to tunnel through a single POST-based operation and only a few response codes, rather than using more of the HTTP methods and response codes available when taking advantage of the robust HTTP protocol.
+
+    Decision criteria: Due to the lack of full HTTP-based support, there is little-to-no support of GraphQL within popular API gateways, and those gateways would need to enforce OAuth scopes and RBAC only after parsing the incoming GraphQL query. This makes operationalizing GraphQL APIs challenging. Versionning and backward compatibility represents quite a challenge too with GraphQL - be cautious before opting to publish GraphQL APIs.
+
+Hypermedia
+
+An hypermedia API is one driven by self-descriptive links that point to other, related API endpoints. Often, these links point to other resources that are related, e.g. the owner of a project, or to relevant endpoints based on the context of the consumer.
+
+Any style of API can be designed using hypermedia self-descriptive links. Check the Hypermedia section for perscriptive guidance to apply Hypermedia to REST APIs.
+Further Reading
+
+For deeper understanding of REST API design and historical background, you may want to read these reference materials.
+
+REST Design Guides and Sites
+
+    Haufe-Lexware
+    Zalando
+    PayPal
+    Microsoft
+    Adidas Group
+    Google Cloud: applied to gRPC
+    API Stylebook: catalog of guides
+    the API Evangelist: research, thoughts, articles
+
+Internal to Cisco:
+
+    Cisco Cloud Native Practice
+
+REST Cheat Sheets
+
+    API Design Cheat Sheet - This GitHub repository outlines important tips to consider when designing APIs that developers love.
+    Platform-Building Cheat Sheet - Everyone wants to build a platform. This GitHub repository is a public receptacle of ground rules when building a platform.
+
+Books
+
+    RESTful Best Practices guide:
+        PDF (~306KB)
+        ePub (~46KB)
+        Mobi (~86KB)
+        Source Document in Libre/Open Office format (~48KB)
+    Safari online, Leanpub, Amazon, or your local library:
+        A Practical Approach to API Design: From Principles to Practice, https://leanpub.com/restful-api-design, D. Keith Casey Jr and James Higginbotham, 2016, Leanpub.
+        REST API Design Rulebook, Mark Masse, 2011, O’Reilly Media, Inc.
+        RESTful Web Services, Leonard Richardson and Sam Ruby, 2008, O’Reilly Media, Inc.
+        RESTful Web Services Cookbook, Subbu Allamaraju, 2010, O’Reilly Media, Inc.
+        REST in Practice: Hypermedia and Systems Architecture, Jim Webber, et al., 2010, O’Reilly Media, Inc.
+        APIs: A Strategy Guide, Daniel Jacobson; Greg Brail; Dan Woods, 2011, O'Reilly Media, Inc.
