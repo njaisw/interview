@@ -26,6 +26,7 @@ public class _01_LongestCommonSubsequence {
         //check i goes till temp.length which str+1
         for(int i=1; i < temp.length; i++){
             for(int j=1; j < temp[i].length; j++){
+                //TODO see the i and j
                 if(str1[i-1] == str2[j-1]) {
                     temp[i][j] = temp[i - 1][j - 1] + 1;
                 }
@@ -33,6 +34,7 @@ public class _01_LongestCommonSubsequence {
                 {
                     temp[i][j] = Math.max(temp[i][j-1],temp[i-1][j]);
                 }
+                //TODO remember the max in the temp[i][j]
                 if(temp[i][j] > max){
                     max = temp[i][j];
                 }

@@ -1,0 +1,34 @@
+
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ºËÊ¡øÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­ğüüÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.(·Éê®
+Isquid:S1135"2Complete the task associated to this TODO comment.(»¿™Î
+Nsquid:S1135"2Complete the task associated to this TODO comment.(ÂïÊĞúÿÿÿÿ
+Nsquid:S1135$"2Complete the task associated to this TODO comment.(Ï¸àıÿÿÿÿ
+Wsquid:S1126+"AReplace this if-then-else statement by a single return statement.(Û‚İ+
+Isquid:S11356"2Complete the task associated to this TODO comment.(—ú¤À
+Tsquid:S1197w"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+O
+squid:S106z"9Replace this use of System.out or System.err by a logger.(µ¶·Â
+O
+squid:S106|"9Replace this use of System.out or System.err by a logger.(µ¶·Â
+O
+squid:S106~"9Replace this use of System.out or System.err by a logger.(µ¶·Â
+P
+squid:S106€"9Replace this use of System.out or System.err by a logger.(µ¶·Â
+P
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(µ¶·Â
+P
+squid:S106„"9Replace this use of System.out or System.err by a logger.(µ¶·Â
+U
+squid:S106…"9Replace this use of System.out or System.err by a logger.(ˆšÑÖüÿÿÿÿ
+P
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(µ¶·Â
+P
+squid:S106‰"9Replace this use of System.out or System.err by a logger.(µ¶·Â
+P
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(µ¶·Â
+P
+squid:S106"9Replace this use of System.out or System.err by a logger.(µ¶·Â
+P
+squid:S106"9Replace this use of System.out or System.err by a logger.(µ¶·Â

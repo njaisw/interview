@@ -12,7 +12,7 @@ import java.util.concurrent.Future;
 //TODO ExcutorService= incomingQ+workerthread
 //TODO CompletionService=incomingQ+workerthread+outgoingQ
 
-public class ThreadPoolExample {
+public class _11_ThreadPoolExample {
 
 	public static ExecutorService threadPool = Executors.newFixedThreadPool(5);
 
@@ -29,7 +29,7 @@ public class ThreadPoolExample {
 	}
 
 	public static void main(String args[]) throws Exception {
-		ThreadPoolExample tpe = new ThreadPoolExample();
+		_11_ThreadPoolExample tpe = new _11_ThreadPoolExample();
 		tpe.doWork();
 	}
 

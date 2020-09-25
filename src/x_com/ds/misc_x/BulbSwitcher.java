@@ -1,4 +1,4 @@
-package _4a_com.ds.misc_x;
+package x_com.ds.misc_x;
 
 /**
  * There are n bulbs that are initially off. You first turn on all the bulbs.

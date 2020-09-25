@@ -1,0 +1,34 @@
+
+Isquid:S11355"2Complete the task associated to this TODO comment.(¢øÍ¯
+Psquid:MissingDeprecatedCheckW"(Add the missing @deprecated Javadoc tag.(Ùúí²
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€–ÌÖøÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£Š£¡
+Isquid:S1135I"2Complete the task associated to this TODO comment.(üÃÛÍ
+Zsquid:CallToDeprecatedMethod™"2Remove this use of "areCousins"; it is deprecated.(Ûï¼
+[squid:CallToDeprecatedMethod˜"2Remove this use of "areCousins"; it is deprecated.(´‡¹
+Nsquid:S1135%"2Complete the task associated to this TODO comment.(ı¾Ò£ùÿÿÿÿ
+[squid:CallToDeprecatedMethod—"2Remove this use of "areCousins"; it is deprecated.(İ¬Î
+P
+squid:S106š"9Replace this use of System.out or System.err by a logger.(÷úŠ‚
+Isquid:S1135B"2Complete the task associated to this TODO comment.(¢øÍ¯
+Isquid:S1135Q"2Complete the task associated to this TODO comment.(“ş¸
+Usquid:S1197ˆ"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+Gsquid:S1066€"/Merge this if statement with the enclosing one.(ƒàÇ
+U
+squid:S106•"9Replace this use of System.out or System.err by a logger.(Ô”Şâøÿÿÿÿ
+P
+squid:S106—"9Replace this use of System.out or System.err by a logger.(İ¬Î
+`squid:CallToDeprecatedMethod–"2Remove this use of "areCousins"; it is deprecated.(¬İ¹çøÿÿÿÿ
+O
+squid:S106™"9Replace this use of System.out or System.err by a logger.(Ûï¼
+Nsquid:S1135O"2Complete the task associated to this TODO comment.(æ­óıÿÿÿÿ
+osquid:S2293X"YReplace the type specification in this constructor call with the diamond operator ("<>").(€Åî!
+isquid:S3776 "RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(™¡—Ë
+P
+squid:S106˜"9Replace this use of System.out or System.err by a logger.(´‡¹
+isquid:S3776W"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ùúí²
+`squid:CallToDeprecatedMethod•"2Remove this use of "areCousins"; it is deprecated.(Ô”Şâøÿÿÿÿ
+Lsquid:S1133W"5Do not forget to remove this deprecated code someday.(Ùúí²
+[squid:CallToDeprecatedMethodš"2Remove this use of "areCousins"; it is deprecated.(÷úŠ‚
+U
+squid:S106–"9Replace this use of System.out or System.err by a logger.(¬İ¹çøÿÿÿÿ

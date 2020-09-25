@@ -1,18 +1,0 @@
-
-^squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-Zsquid:S1155W">Use isEmpty() to check whether the collection is empty or not.(¯ç¼úøÿÿÿÿ
-O
-squid:S106’"9Replace this use of System.out or System.err by a logger.(õìt
-bsquid:CommentedOutCodeLine\"<This block of commented-out lines of code should be removed.(šò½à
-P
-squid:S106Œ"9Replace this use of System.out or System.err by a logger.(¯òà
-Hsquid:S1135Q"2Complete the task associated to this TODO comment.(¬Ëû#
-t
-squid:S135@"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
-Zsquid:S1155G">Use isEmpty() to check whether the collection is empty or not.(ÒõÚ²ıÿÿÿÿ
-T
-squid:S106%"9Replace this use of System.out or System.err by a logger.(İİâàşÿÿÿÿ
-Osquid:S1197p"8Move the array designator from the variable to the type.(‘–µ¥
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(¦š·ıÿÿÿÿ
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ûº­çÿÿÿÿÿ

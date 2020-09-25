@@ -16,7 +16,7 @@ public class _5_A_BiparteGraph {
         Set<Vertex<Integer>> redSet = new HashSet<Vertex<Integer>>();
         Set<Vertex<Integer>> blueSet = new HashSet<Vertex<Integer>>();
 
-        //TODO Uses BFS not DFS
+        //TODO Uses BFS but not DFS
         Queue<Vertex<Integer>> queue = new LinkedList<Vertex<Integer>>();
 
         //TODO remember the for loop while traversing
@@ -37,7 +37,7 @@ public class _5_A_BiparteGraph {
                                 //codition 2
                                 continue;
                             }
-                            //condition 3
+                            //TODO ELSE condition 3
                             blueSet.add(adj);
                         }
                         else if(blueSet.contains(vertex)){

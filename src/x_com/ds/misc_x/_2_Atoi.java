@@ -1,4 +1,4 @@
-package _4a_com.ds.misc_x;
+package x_com.ds.misc_x;
 
 public class _2_Atoi {
 

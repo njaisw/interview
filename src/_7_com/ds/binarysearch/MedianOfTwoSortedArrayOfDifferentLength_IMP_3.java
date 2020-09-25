@@ -31,6 +31,7 @@ public class MedianOfTwoSortedArrayOfDifferentLength_IMP_3 {
 
         while (low <= high) {
 
+            //TODO remember partition x and partition y
             int partitionX = (low + high)/2;
             int partitionY = (x + y + 1)/2 - partitionX;
 
@@ -42,6 +43,7 @@ public class MedianOfTwoSortedArrayOfDifferentLength_IMP_3 {
             int maxLeftY = (partitionY == 0) ? Integer.MIN_VALUE : input2[partitionY - 1];
             int minRightY = (partitionY == y) ? Integer.MAX_VALUE : input2[partitionY];
 
+            //TODO Trick remember left < right always for x and y both
             if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
                 //We have partitioned array at correct place
                 // Now get max of left elements and min of right elements to get the median in case of even length combined array size
@@ -52,7 +54,7 @@ public class MedianOfTwoSortedArrayOfDifferentLength_IMP_3 {
                     return (double)Math.max(maxLeftX, maxLeftY);
                 }
             } else if (maxLeftX > minRightY) { //we are too far on right side for partitionX. Go on left side.
-            	//TODO LOGIC
+            	//TODO LOGIC always move partionx
                 high = partitionX - 1;
             } else { //we are too far on left side for partitionX. Go on right side.
                 low = partitionX + 1;

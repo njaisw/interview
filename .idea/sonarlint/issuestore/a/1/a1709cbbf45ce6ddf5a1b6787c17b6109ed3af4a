@@ -1,0 +1,4 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( Ý‚‘ýÿÿÿÿ
+lsquid:S1149Y"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ
+lsquid:S1149Z"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(©¾¤¤ýÿÿÿÿ

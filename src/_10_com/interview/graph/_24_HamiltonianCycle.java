@@ -39,7 +39,7 @@ public class _24_HamiltonianCycle<T> {
             }
         }
         result.remove(result.size()-1);
-        // TODO Visited is removed
+        // TODO Visited is removed once all the children are visted so that it can be visited once again from other nodes
         visited.remove(currentVertex);
         return false;
     }

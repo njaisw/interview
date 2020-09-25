@@ -1,0 +1,31 @@
+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğÿó¦ùÿÿÿÿ
+T
+squid:S1069"9Replace this use of System.out or System.err by a logger.(Ú°ğúÿÿÿÿ
+Qsquid:S1133N"5Do not forget to remove this deprecated code someday.(áëˆÿÿÿÿÿ
+Usquid:MissingDeprecatedCheck?"(Add the missing @deprecated Javadoc tag.(ÃÉ§úÿÿÿÿ
+T
+squid:S106:"9Replace this use of System.out or System.err by a logger.(Ø¯«Ìúÿÿÿÿ
+t
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Øİğ•ÿÿÿÿÿ
+Nsquid:S2589Z"7Remove this expression which always evaluates to "true"(ñ¥‹Ì
+Ssquid:S3972."7Move this "if" to a new line or add the missing "else".(îƒ‰úÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ùì°§
+Isquid:S1135"2Complete the task associated to this TODO comment.(°Ô× 
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(¶ù–¡
+Usquid:MissingDeprecatedCheckN"(Add the missing @deprecated Javadoc tag.(áëˆÿÿÿÿÿ
+Ssquid:S3972$"7Move this "if" to a new line or add the missing "else".(³¡äõüÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(Ø¢èÈşÿÿÿÿ
+O
+squid:S106z"9Replace this use of System.out or System.err by a logger.(½„¤‡
+Isquid:S1135"2Complete the task associated to this TODO comment.(Ï™ÏË
+Nsquid:S1135"2Complete the task associated to this TODO comment.(õø²Æşÿÿÿÿ
+usquid:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(½÷×¢ùÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸×µ±ÿÿÿÿÿ
+Qsquid:S1133?"5Do not forget to remove this deprecated code someday.(ÃÉ§úÿÿÿÿ
+asquid:CallToDeprecatedMethody"4Remove this use of "isBiparteDFS"; it is deprecated.(“£­ıÿÿÿÿ
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½÷×¢ùÿÿÿÿ
+Osquid:S1197n"8Move the array designator from the variable to the type.(¸ùªì
+psquid:S2293@"YReplace the type specification in this constructor call with the diamond operator ("<>").(–ªªØ
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(–ªªØ
+usquid:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ù‚‹™ùÿÿÿÿ

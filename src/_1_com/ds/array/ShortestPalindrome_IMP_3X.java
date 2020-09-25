@@ -20,6 +20,7 @@ import java.util.Arrays;
  *         https://leetcode.com/problems/shortest-palindrome/
  */
 public class ShortestPalindrome_IMP_3X {
+
 	public String shortestPalindrome(String s) {
 		System.out.println(s);
 		char[] input = createInput(s);
@@ -58,6 +59,7 @@ public class ShortestPalindrome_IMP_3X {
 				j++;
 			} else {
 				while (j != 0) {
+					//TODO j= T[j-1]
 					j = T[j - 1];
 					//TODO same condition repeats
 					if (input[i] == input[j]) {

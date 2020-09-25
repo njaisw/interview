@@ -1,0 +1,12 @@
+
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(´Ğõ°şÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áÊ«¡
+Qsquid:S1133 "5Do not forget to remove this deprecated code someday.(ùÒóÙùÿÿÿÿ
+Usquid:MissingDeprecatedCheck "(Add the missing @deprecated Javadoc tag.(ùÒóÙùÿÿÿÿ
+Nsquid:S1135)"2Complete the task associated to this TODO comment.(…¡…ïÿÿÿÿÿ
+Isquid:S1135,"2Complete the task associated to this TODO comment.(šÒ–
+Isquid:S11351"2Complete the task associated to this TODO comment.(èö˜Â
+Isquid:S11353"2Complete the task associated to this TODO comment.(ûÜÖ¡
+Isquid:S11357"2Complete the task associated to this TODO comment.(îÔÂ·
+Hsquid:S1135C"2Complete the task associated to this TODO comment.(œ¸‰Z
+Nsquid:S1135E"2Complete the task associated to this TODO comment.(£Øäìûÿÿÿÿ

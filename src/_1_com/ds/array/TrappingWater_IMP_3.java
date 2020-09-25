@@ -27,7 +27,7 @@ public class TrappingWater_IMP_3 {
         System.out.println(Arrays.toString(rightMax));
         
         int maxWaterTrapped = 0;
-        //TODO Remember i goes from 1 to len-1
+        //TODO Remember i goes from 1
         for (int i = 1; i < len - 1; i++) {
             int min = Math.min(leftMax[i], rightMax[i]);
             if (height[i] < min) {

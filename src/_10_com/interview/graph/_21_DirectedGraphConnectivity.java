@@ -36,7 +36,8 @@ public class _21_DirectedGraphConnectivity {
             reverseGraph.addEdge(edge.getVertex2().getId(), edge.getVertex1()
                     .getId(), edge.getWeight());
         }
-        //2a: Put all the vertex of the reverse graph in a vetexMap, This is optional and it required only to locate a vertex in the stack front with the reverse graph
+        //2a: Put all the vertex of the reverse graph in a vetexMap,
+        // This is optional and it required only to locate a vertex in the stack front with the reverse graph
         for (Vertex<Integer> vertex : reverseGraph.getAllVertex()) {
             vertexMap.put(vertex.getId(), vertex);
         }

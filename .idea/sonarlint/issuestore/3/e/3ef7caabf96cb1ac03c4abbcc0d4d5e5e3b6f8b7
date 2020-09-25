@@ -1,0 +1,21 @@
+
+Fsquid:S1066/"/Merge this if statement with the enclosing one.(¦×Û
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‚†„®ÿÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸×µ±ÿÿÿÿÿ
+Usquid:S1155#">Use isEmpty() to check whether the collection is empty or not.(İÃŸš
+{squid:S1149A"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(†ØÆÌûÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.(°ªµŠ
+Isquid:S1135"2Complete the task associated to this TODO comment.(ıÆŞ
+osquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨ÔÙ
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(œíï€
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Êˆè»ÿÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.(Ô°“
+Isquid:S1135"2Complete the task associated to this TODO comment.(©’é¬
+Isquid:S1135$"2Complete the task associated to this TODO comment.(åâñ
+Isquid:S1135,"2Complete the task associated to this TODO comment.(ñå„¦
+Nsquid:S1135."2Complete the task associated to this TODO comment.(¶óÔµıÿÿÿÿ
+T
+squid:S106:"9Replace this use of System.out or System.err by a logger.(­–ÒÁøÿÿÿÿ
+Tsquid:S1197I"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+usquid:S2293J"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘°ºÁøÿÿÿÿ

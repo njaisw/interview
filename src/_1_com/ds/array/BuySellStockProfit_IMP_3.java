@@ -17,6 +17,7 @@ package _1_com.ds.array;
 public class BuySellStockProfit_IMP_3 {
 
     public int oneProfit(int arr[]){
+        //TODO minprice and max profit
         int minPrice = arr[0];
         int maxProfit = 0;
         for(int i=1; i < arr.length; i++){

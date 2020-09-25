@@ -1,0 +1,17 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( Ý‚‘ýÿÿÿÿ
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(úÛÒå
+O
+squid:S106%"9Replace this use of System.out or System.err by a logger.(Ù©È±
+T
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+@squid:S5413.")Verify that "remove()" is used correctly.(Í÷Öð
+Tsquid:S11972"8Move the array designator from the variable to the type.(É†Šûÿÿÿÿÿ
+Tsquid:S1197L"8Move the array designator from the variable to the type.(±èŸ›øÿÿÿÿ
+Tsquid:S1197\"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
+Tsquid:S1197_"8Move the array designator from the variable to the type.(éò¶¨øÿÿÿÿ
+O
+squid:S106`"9Replace this use of System.out or System.err by a logger.(Ë¾þˆ
+O
+squid:S106a"9Replace this use of System.out or System.err by a logger.(ê×˜¸
+asquid:CommentedOutCodeLine^"<This block of commented-out lines of code should be removed.(¸…¼}

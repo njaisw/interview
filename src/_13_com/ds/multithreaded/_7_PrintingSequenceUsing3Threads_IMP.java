@@ -26,7 +26,7 @@ Solution: We will use concept of remainder here.
  */
 // http://javabypatel.blogspot.com/2017/06/wait-notify-notifyall-example-in-java-thread.html
 //TODO implements Runnable
-public class PrintingSequenceUsing3Threads_IMP implements Runnable {
+public class _7_PrintingSequenceUsing3Threads_IMP implements Runnable {
 
 	private static final int PRINT_NUMBERS_UPTO = 10;
 
@@ -38,7 +38,7 @@ public class PrintingSequenceUsing3Threads_IMP implements Runnable {
 	//TODO 2: Static lock
 	private static Object lock = new Object();
 
-	PrintingSequenceUsing3Threads_IMP(int remainder) {
+	_7_PrintingSequenceUsing3Threads_IMP(int remainder) {
 		this.remainder = remainder;
 	}
 
@@ -65,9 +65,9 @@ public class PrintingSequenceUsing3Threads_IMP implements Runnable {
 
 	public static void main(String[] args) {
 
-		PrintingSequenceUsing3Threads_IMP runnable1 = new PrintingSequenceUsing3Threads_IMP(1);
-		PrintingSequenceUsing3Threads_IMP runnable2 = new PrintingSequenceUsing3Threads_IMP(2);
-		PrintingSequenceUsing3Threads_IMP runnable3 = new PrintingSequenceUsing3Threads_IMP(0);
+		_7_PrintingSequenceUsing3Threads_IMP runnable1 = new _7_PrintingSequenceUsing3Threads_IMP(1);
+		_7_PrintingSequenceUsing3Threads_IMP runnable2 = new _7_PrintingSequenceUsing3Threads_IMP(2);
+		_7_PrintingSequenceUsing3Threads_IMP runnable3 = new _7_PrintingSequenceUsing3Threads_IMP(0);
 
 		Thread t1 = new Thread(runnable1, "T1");
 		Thread t2 = new Thread(runnable2, "T2");

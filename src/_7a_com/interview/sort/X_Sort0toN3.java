@@ -1,4 +1,4 @@
-package _7a_com.interview.sort_done;
+package _7a_com.interview.sort;
 
 /**
  * http://www.geeksforgeeks.org/sort-n-numbers-range-0-n2-1-linear-time/

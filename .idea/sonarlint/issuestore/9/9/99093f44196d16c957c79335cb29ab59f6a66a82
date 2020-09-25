@@ -1,0 +1,25 @@
+
+T
+squid:S106`"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Psquid:S1135""2Complete the task associated to this TODO comment.(Ä®‰›8™ìéÌ.
+T
+squid:S106N"9Replace this use of System.out or System.err by a logger.(Ôä†ãıÿÿÿÿ
+N
+squid:S106p"9Replace this use of System.out or System.err by a logger.(‹É¯
+T
+squid:S106r"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ÿ«–åúÿÿÿÿ
+Isquid:S11355"2Complete the task associated to this TODO comment.(Ä¶š
+O
+squid:S106m"9Replace this use of System.out or System.err by a logger.(šÕ‡ó
+Nsquid:S1135D"2Complete the task associated to this TODO comment.(Æ’›øúÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(†ĞûÚøÿÿÿÿ
+Osquid:S1197"8Move the array designator from the variable to the type.(Ï£˜Û
+Nsquid:S1135H"2Complete the task associated to this TODO comment.(Æ’›øúÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(È˜Ãñ
+Nsquid:S1135+"2Complete the task associated to this TODO comment.(í¨åÿøÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸×µ±ÿÿÿÿÿ
+T
+squid:S106]"9Replace this use of System.out or System.err by a logger.(Øç¤Ùşÿÿÿÿ
+Tsquid:S1197c"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+Psquid:S1135="2Complete the task associated to this TODO comment.(¯â—í8àéíÌ.

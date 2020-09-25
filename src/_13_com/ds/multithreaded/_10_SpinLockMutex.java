@@ -34,7 +34,7 @@ class Mutex {
 
 }
 
-public class SpinLockMutex {
+public class _10_SpinLockMutex {
 
     StringBuffer buff = new StringBuffer();
 
@@ -48,7 +48,7 @@ public class SpinLockMutex {
     }
 
     public static void main(String args[]) throws Exception{
-        SpinLockMutex slm = new SpinLockMutex();
+        _10_SpinLockMutex slm = new _10_SpinLockMutex();
         Mutex m = new Mutex();
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 10; i++) {

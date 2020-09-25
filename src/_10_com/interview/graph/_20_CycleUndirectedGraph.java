@@ -27,13 +27,14 @@ public class _20_CycleUndirectedGraph<T> {
         }
         //TODO for every edges traverse the graph
         for(Edge<T> edge : graph.getAllEdges()){
+            //TODO finset returns parent
             long parent1 = disjointSet.findSet(edge.getVertex1().getId());
             long parent2 = disjointSet.findSet(edge.getVertex2().getId());
             //TODO parent of two nodes are equal, so the nodes are same
             if(parent1 == parent2){
                 return true;
             }
-            //TODO union
+            //TODO union add parent nodes
             disjointSet.union(edge.getVertex1().getId(), edge.getVertex2().getId());
         }
         return false;

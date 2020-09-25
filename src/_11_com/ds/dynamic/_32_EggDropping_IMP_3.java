@@ -23,8 +23,9 @@ public class _32_EggDropping_IMP_3 {
                 // TODO k another variable
                 for(int k = 1; k <=f ; k++){
                     //TODO 1+ max(T[e][k], T[e][f-k])).
+                    //TODO remember 1+........
                     c = 1 + Math.max(T[e-1][k-1], T[e][f-k]);
-                    //TODO 1+ min (max(T[e][k], T[e][f-k])).
+                    //TODO 1+ min ( max(T[e][k], T[e][f-k])).
                     if(c < T[e][f]){
                         T[e][f] = c;
                     }

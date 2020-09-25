@@ -55,6 +55,7 @@ public class _22_StronglyConnectedComponent {
         //TODO Do a DFS based off vertex finish time in decreasing order on reverse graph..
         visited.clear();
         List<Set<Vertex<Integer>>> result = new ArrayList<>();
+        //TODO Traverse based the stack elements, if visited contains the elements tehn poll else find dfs with new new  visited set
         while (!stack.isEmpty()) {
             Vertex<Integer> vertex = reverseGraph.getVertex(stack.poll().getId());
             if(visited.contains(vertex)){

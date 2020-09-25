@@ -18,16 +18,16 @@ import java.util.Set;
 public class _8_Boggle {
 
     public List<String> findWords(char[][] board, String[] words) {
-        Trie t = new Trie();
+        Trie trie = new Trie();
         for (String word : words) {
-            t.insert(word);
+            trie.insert(word);
         }
         StringBuffer buff = new StringBuffer();
         Set<String> result = new HashSet<>();
         Set<Integer> visited = new HashSet<>();
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
-                findWordsUtil(board, t, i, j, buff, visited, result, board[0].length);
+                findWordsUtil(board, trie, i, j, buff, visited, result, board[0].length);
             }
         }
         return new ArrayList<>(result);
@@ -37,7 +37,7 @@ public class _8_Boggle {
         if (i < 0 || j < 0 || i >= board.length || j >= board[i].length) {
             return;
         }
-        //TODO column is fixed length, so the formula is curr_row*total_colum+ current_col
+        //TODO column is fixed length, so the formula is curr_row*total_colum+current_col
         int val = i*col + j;
 
         if (visited.contains(val)) {

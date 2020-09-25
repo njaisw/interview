@@ -25,20 +25,21 @@ package _2_com.ds.multiarray;
  */
 public class RotateImage_3X {
 
+
     public void rotate(int[][] matrix) {
         int length = matrix.length-1;
-        int j=0;
-        //TODO j runs till less than matrix.length/2
-        while(j < matrix.length/2){
-            //TODO i from j to length-j
-            for(int i=j; i < length-j; i++){
-                int temp = matrix[j][i];
-                matrix[j][i] = matrix[length-i][j];
-                matrix[length-i][j] = matrix[length-j][length-i];
-                matrix[length-j][length-i] = matrix[i][length-j];
-                matrix[i][length-j] = temp;
+        int row=0;
+        //TODO row runs from 0 to matrix.length/2
+        while(row < matrix.length/2){
+            //TODO i from row to length-row
+            for(int col=row; col < length-row; col++){
+                int temp = matrix[row][col];
+                matrix[row][col] = matrix[length-col][row];
+                matrix[length-col][row] = matrix[length-row][length-col];
+                matrix[length-row][length-col] = matrix[col][length-row];
+                matrix[col][length-row] = temp;
             }
-            j++;
+            row++;
         }
     }
 

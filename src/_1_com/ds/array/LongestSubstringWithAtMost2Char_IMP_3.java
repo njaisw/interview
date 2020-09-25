@@ -8,6 +8,7 @@ public class LongestSubstringWithAtMost2Char_IMP_3 {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
         int count1 = 0;
         int count2 = 0;
+        //TODO c1==0
         char c1 = 0;
         char c2 = 0;
         int start = 0;

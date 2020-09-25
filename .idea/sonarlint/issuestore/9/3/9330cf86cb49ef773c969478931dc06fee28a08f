@@ -1,0 +1,22 @@
+
+O
+squid:S106W"9Replace this use of System.out or System.err by a logger.(ÀÎ™¯
+O
+squid:S106j"9Replace this use of System.out or System.err by a logger.(½„¤‡
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(²”ß¨
+Nsquid:S1135O"2Complete the task associated to this TODO comment.(û¶ó°ûÿÿÿÿ
+T
+squid:S106T"9Replace this use of System.out or System.err by a logger.(Ùó§Ôüÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…ã“Ô
+Lsquid:S1133"5Do not forget to remove this deprecated code someday.(Ê…Ñ
+Tsquid:S1197%"8Move the array designator from the variable to the type.(¬ÂíÇıÿÿÿÿ
+Nsquid:S1135F"2Complete the task associated to this TODO comment.(åû±ÿÿÿÿÿ
+nsquid:S00117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú›¶¢úÿÿÿÿ
+Nsquid:S1135K"2Complete the task associated to this TODO comment.(Ü˜áÿÿÿÿÿ
+Tsquid:S1197e"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+Isquid:S11359"2Complete the task associated to this TODO comment.(İ´Õ
+Osquid:S1197"8Move the array designator from the variable to the type.(Ê…Ñ
+Psquid:MissingDeprecatedCheck"(Add the missing @deprecated Javadoc tag.(Ê…Ñ
+Tsquid:S1197B"8Move the array designator from the variable to the type.(Ú›¶¢úÿÿÿÿ
+O
+squid:S106P"9Replace this use of System.out or System.err by a logger.(¤Ìû†

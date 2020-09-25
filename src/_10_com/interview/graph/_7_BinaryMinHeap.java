@@ -22,7 +22,7 @@ import java.util.Map;
 public class _7_BinaryMinHeap<T> {
 
     private List<Node> allNodes = new ArrayList<>();
-    private Map<T,Integer> nodePosition = new HashMap<>();
+    private Map<T,Integer> nodePositionMap = new HashMap<>();
         
     public class Node {
         int weight;
@@ -32,7 +32,7 @@ public class _7_BinaryMinHeap<T> {
     /**
      * Checks where the key exists in heap or not
      */
-    public boolean containsData(T key){ return nodePosition.containsKey(key); }
+    public boolean containsData(T key){ return nodePositionMap.containsKey(key); }
 
     /**
      * Add key and its weight to they heap
@@ -45,7 +45,7 @@ public class _7_BinaryMinHeap<T> {
         int size = allNodes.size();
         int current = size - 1;
         int parentIndex = (current - 1) / 2;
-        nodePosition.put(node.key, current);
+        nodePositionMap.put(node.key, current);
 
         while (parentIndex >= 0) {
             Node parentNode = allNodes.get(parentIndex);
@@ -76,12 +76,13 @@ public class _7_BinaryMinHeap<T> {
     }
 
     /**
-     * Decreases the weight of given key to newWeight
+     * TODO Decreases the weight of given key to newWeight
      */
     public void decrease(T data, int newWeight){
-        Integer position = nodePosition.get(data);
+        Integer position = nodePositionMap.get(data);
         allNodes.get(position).weight = newWeight;
         int parent = (position -1 )/2;
+        // TODO after decrease it goes upward for the check
         while(parent >= 0){
             if(allNodes.get(parent).weight > allNodes.get(position).weight){
                 swap(allNodes.get(parent), allNodes.get(position));
@@ -98,7 +99,7 @@ public class _7_BinaryMinHeap<T> {
      * Get the weight of given key
      */
     public Integer getWeight(T key) {
-        Integer position = nodePosition.get(key);
+        Integer position = nodePositionMap.get(key);
         if( position == null ) {
             return null;
         } else {
@@ -110,6 +111,7 @@ public class _7_BinaryMinHeap<T> {
      * Returns the min node of the heap
      */
     public Node extractMinNode() {
+        //Swaps the last node with the node
         int size = allNodes.size() -1;
         Node minNode = new Node();
         minNode.key = allNodes.get(0).key;
@@ -118,9 +120,9 @@ public class _7_BinaryMinHeap<T> {
         int lastNodeWeight = allNodes.get(size).weight;
         allNodes.get(0).weight = lastNodeWeight;
         allNodes.get(0).key = allNodes.get(size).key;
-        nodePosition.remove(minNode.key);
-        nodePosition.remove(allNodes.get(0));
-        nodePosition.put(allNodes.get(0).key, 0);
+        nodePositionMap.remove(minNode.key);
+        nodePositionMap.remove(allNodes.get(0));
+        nodePositionMap.put(allNodes.get(0).key, 0);
         allNodes.remove(size);
 
         int currentIndex = 0;
@@ -154,7 +156,7 @@ public class _7_BinaryMinHeap<T> {
     }
 
     private void printPositionMap(){
-        System.out.println(nodePosition);
+        System.out.println(nodePositionMap);
     }
 
     private void swap(Node node1,Node node2){
@@ -169,10 +171,10 @@ public class _7_BinaryMinHeap<T> {
     }
 
     private void updatePositionMap(T data1, T data2, int pos1, int pos2){
-        nodePosition.remove(data1);
-        nodePosition.remove(data2);
-        nodePosition.put(data1, pos1);
-        nodePosition.put(data2, pos2);
+        nodePositionMap.remove(data1);
+        nodePositionMap.remove(data2);
+        nodePositionMap.put(data1, pos1);
+        nodePositionMap.put(data2, pos2);
     }
     
     public void printHeap(){

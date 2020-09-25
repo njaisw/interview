@@ -1,0 +1,18 @@
+
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âºí€
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…ã“Ô
+?squid:S4274"(Replace this assert with a proper check.(Îùô
+Tsquid:S11977"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+Osquid:S1197"8Move the array designator from the variable to the type.(âºí€
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(áß°ôûÿÿÿÿ
+O
+squid:S106,"9Replace this use of System.out or System.err by a logger.(üœœ…
+gsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(°ù¸ûıÿÿÿÿ
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£ìƒ‰ûÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(áß°ôûÿÿÿÿ
+O
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ËÃ¥
+Nsquid:S1135""2Complete the task associated to this TODO comment.(Ê‰í“ûÿÿÿÿ
+Nsquid:S1135$"2Complete the task associated to this TODO comment.(¦€ì«ıÿÿÿÿ
+usquid:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(È…±×ıÿÿÿÿ
+Tsquid:S11978"8Move the array designator from the variable to the type.(¹ö ¤ıÿÿÿÿ

@@ -17,6 +17,7 @@ public class _4b_FixedThreadPooLImpl {
 	}
 
 	public void execute(Runnable task) {
+		//Todo Queue needs sync
 		synchronized (queue) {
 			queue.add(task);
 			queue.notify();

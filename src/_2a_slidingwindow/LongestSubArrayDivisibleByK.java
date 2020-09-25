@@ -25,6 +25,7 @@ public class LongestSubArrayDivisibleByK {
 			if (currentSum == k) {
 				if (maxlength < i - start + 1) {
 					maxlength = i - start + 1;
+					//TODO Arrays.copyRange
 					result = Arrays.copyOfRange(inputs, start, i+1);
 				}
 			}

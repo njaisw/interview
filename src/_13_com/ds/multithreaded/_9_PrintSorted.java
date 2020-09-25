@@ -3,7 +3,7 @@ package _13_com.ds.multithreaded;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class PrintSorted {
+public class _9_PrintSorted {
 
 	private static class SequencePrinter implements Runnable {
 

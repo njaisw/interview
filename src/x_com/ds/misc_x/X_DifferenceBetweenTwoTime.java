@@ -1,4 +1,4 @@
-package _4a_com.ds.misc_x;
+package x_com.ds.misc_x;
 
 /**
  * Given two times in four digits number e.g 10:10 is 1010 find difference between them

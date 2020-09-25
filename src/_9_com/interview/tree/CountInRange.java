@@ -14,7 +14,5 @@ public class CountInRange {
 			return CountInBST(root.left, low, high);
 		
 	}
-	
-
 
 }

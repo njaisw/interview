@@ -1,0 +1,14 @@
+
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áÊ«¡
+osquid:S1602!"SRemove useless curly braces around statement and then remove useless return keyword(Þ¡¤¸ûÿÿÿÿ
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÿÍðù
+Hsquid:S1481F"1Remove this unused "resulElemets" local variable.(Ãî¯ü
+T
+squid:S106:"9Replace this use of System.out or System.err by a logger.(×«¼Èüÿÿÿÿ
+Wsquid:S1854F"@Remove this useless assignment to local variable "resulElemets".(Ãî¯ü
+osquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ã®ýk
+Nsquid:S1135"2Complete the task associated to this TODO comment.(ÏýØâÿÿÿÿÿ
+usquid:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(Þ¡¤¸ûÿÿÿÿ
+Nsquid:S3655F"7Call "Optional#isPresent()" before accessing the value.(Ãî¯ü
+psquid:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥Ç†¶
+lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€ª‘é8·ÀèÀË.

@@ -1,0 +1,14 @@
+
+>squid:S2189J""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+>squid:S2189P""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+>squid:S2189D""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+jsquid:S00101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€´™æüÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏéÃµûÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.(²Û¾é
+Hsquid:S1135"2Complete the task associated to this TODO comment.(¤å¤
+Nsquid:S1135,"2Complete the task associated to this TODO comment.(Ã¿»¡úÿÿÿÿ
+T
+squid:S106/"9Replace this use of System.out or System.err by a logger.(‡¯±’ùÿÿÿÿ
+Tsquid:S11974"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
+Nsquid:S11356"2Complete the task associated to this TODO comment.(ûöñƒþÿÿÿÿ

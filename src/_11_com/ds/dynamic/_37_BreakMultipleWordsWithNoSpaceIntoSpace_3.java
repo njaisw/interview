@@ -71,14 +71,15 @@ public class _37_BreakMultipleWordsWithNoSpaceIntoSpace_3 {
         for(int l = 1; l <= word.length(); l++){
             for(int row=0; row < word.length() -l + 1 ; row++){
                 int col = row + l-1;
+                //TODO str substring from row to col
                 String str = word.substring(row,col+1);
-                //if string between row to col is in dictionary T[row][col] is true
+                //TODO if string between row to col is in dictionary T[row][col] is true
                 if(dict.contains(str)){
                     //TODO here row goes
                     T[row][col] = row;
                     continue;
                 }
-                //find a k between row+1 to col such that T[row][k-1] && T[k][col] are both true
+                //TODO find a k between row+1 to col such that T[row][k-1] && T[k][col] are both true
                 for(int k=row+1; k <= col; k++){
                     if(T[row][k-1] != -1 && T[k][col] != -1){
                         //TODO Here k goes

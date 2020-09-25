@@ -99,7 +99,7 @@ public class TreeTraversals_IMP_2 {
         }
     }
     
-    //TODO Check the logic Post means -> Right,Left,Data
+    //TODO Check the logic Post means -> Postorder (Left, Right, Root)
     public void postOrderItrOneStack(Node root){
         Node current = root;
         Deque<Node> stack = new LinkedList<>();

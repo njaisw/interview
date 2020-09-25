@@ -1,0 +1,5 @@
+
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»Ò‹ş
+^squid:S2259"BA "NullPointerException" could be thrown; "tail" is nullable here.(”ëÿúÿÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­ğüüÿÿÿÿ
+Tsquid:S1197#"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ

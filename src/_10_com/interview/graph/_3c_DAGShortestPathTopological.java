@@ -18,11 +18,13 @@ public class _3c_DAGShortestPathTopological<T> {
     public Map<Vertex<T>,Integer> shortestPath(_1_Graph<T> graph, Vertex<T> startVertex){
         
         Map<Vertex<T>,Integer> distance = new HashMap<Vertex<T>,Integer>();
+
         _15_A_TopologicalSort<T> sort = new _15_A_TopologicalSort<T>();
+        //TODO instead of queue in dijkra here topological stack is used
         Deque<Vertex<T>> deque = sort.topSort(graph);
         //TODO startvertex is set to 0
 
-        // Difference from the dikstra is dikstra process min nodes in the heap and here no no heap , infact nodes are processed based on the stack
+        //todo  Difference from the dikstra is dikstra process min nodes in the heap and here no no heap , infact nodes are processed based on the stack
         distance.put(startVertex, 0);
         while(!deque.isEmpty()){
             Vertex<T> vertex = deque.poll();
@@ -52,8 +54,16 @@ public class _3c_DAGShortestPathTopological<T> {
         graph.addEdge(4, 7,3);
 
         _3c_DAGShortestPathTopological<Integer> shortestPath = new _3c_DAGShortestPathTopological<Integer>();
-        Map<Vertex<Integer>,Integer> distance = shortestPath.shortestPath(graph, graph.getAllVertex().iterator().next());
-        System.out.print(distance);
+        Map<Vertex<Integer>,Integer> distance = shortestPath.shortestPath(graph, graph.getVertex(3));
+        System.out.println(distance);
+
+
+        System.out.println();
+
+        Map<Vertex<Integer>,Integer> distance2 = shortestPath.shortestPath(graph, graph.getVertex(2));
+        System.out.println(distance2);
+
+
         
     }
 }

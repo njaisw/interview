@@ -1,0 +1,21 @@
+
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(œ±òóþÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…ã“Ô
+Qsquid:S1133"5Do not forget to remove this deprecated code someday.(ßÇÊÓûÿÿÿÿ
+Usquid:MissingDeprecatedCheck"(Add the missing @deprecated Javadoc tag.(ßÇÊÓûÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(ßÇÊÓûÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(¼¼¶¿ÿÿÿÿÿ
+Osquid:S1197"8Move the array designator from the variable to the type.(‘ÄÒ
+Tsquid:S1197"8Move the array designator from the variable to the type.(¼¼¶¿ÿÿÿÿÿ
+Lsquid:S1133*"5Do not forget to remove this deprecated code someday.(øÎàô
+Psquid:MissingDeprecatedCheck*"(Add the missing @deprecated Javadoc tag.(øÎàô
+Osquid:S1197*"8Move the array designator from the variable to the type.(øÎàô
+Psquid:S18549"9Remove this useless assignment to local variable "price".(ôí‘‰
+Msquid:S18548"6Remove this useless assignment to local variable "cr".(È´òá
+Tsquid:S11977"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
+N
+squid:S106>"9Replace this use of System.out or System.err by a logger.(¤¯”
+>squid:S14818"'Remove this unused "cr" local variable.(È´òá
+Asquid:S14819"*Remove this unused "price" local variable.(ôí‘‰
+gsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(ÅÒòøÿÿÿÿ
+gsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(ÚçÆ¡ÿÿÿÿÿ

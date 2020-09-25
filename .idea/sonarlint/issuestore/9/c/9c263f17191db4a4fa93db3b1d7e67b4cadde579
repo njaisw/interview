@@ -1,0 +1,5 @@
+
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ñå¦¯
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­ðüüÿÿÿÿ
+Usquid:S11551">Use isEmpty() to check whether the collection is empty or not.(µµÀ´
+esquid:S2272""NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(þÿøë

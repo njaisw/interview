@@ -32,7 +32,7 @@ public class _12_CoinChangingMinimumCoin {
 		for (int j = 0; j < coins.length; j++) {
 			for (int i = 1; i <= total; i++) {
 				if (i >= coins[j]) {
-					if (T[i - coins[j]] + 1 < T[i]) {
+					if (T[i - coins[j]] + 1 < T[i ]) {
 						T[i] = 1 + T[i - coins[j]];
 						R[i] = j;
 					}

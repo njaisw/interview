@@ -46,9 +46,9 @@ public class WiggleSort_IMP_3 {
 	// in this version we are looking for nums[0] <= nums[1] >= nums[2] <= nums[3]
 	// and so on.
 	public void wiggleSort1(int[] nums) {
-		boolean flag = true;
+		boolean isLessflag = true;
 		for (int i = 0; i < nums.length - 1; i++) {
-			if (flag) {
+			if (isLessflag) {
 				if (nums[i] > nums[i + 1]) {
 					swap(nums, i, i + 1);
 				}
@@ -57,7 +57,7 @@ public class WiggleSort_IMP_3 {
 					swap(nums, i, i + 1);
 				}
 			}
-			flag = !flag;
+			isLessflag = !isLessflag;
 		}
 	}
 

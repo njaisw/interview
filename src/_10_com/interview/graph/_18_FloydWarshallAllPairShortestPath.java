@@ -31,6 +31,7 @@ public class _18_FloydWarshallAllPairShortestPath {
         for (int i=0; i < inputMatrix.length; i++) {
             for (int j=0; j< inputMatrix[i].length; j++){
                 distance[i][j] = inputMatrix[i][j];
+                //TODO i!=j
                 if (inputMatrix[i][j] != INF && i != j) {
                     path[i][j] = i;
                 } else {
@@ -38,6 +39,8 @@ public class _18_FloydWarshallAllPairShortestPath {
                 }
             }
         }
+
+        //TODO Remember the k is the outer loop = Check for every vertex k if there is path from i to j or not
 
         for(int k=0; k < inputMatrix.length; k++){
             for(int i=0; i < inputMatrix.length; i++){
@@ -55,9 +58,7 @@ public class _18_FloydWarshallAllPairShortestPath {
             }
         }
 
-        //look for negative weight cycle in the graph
-        //if values on diagonal of distance matrix is negative
-        //then there is negative weight cycle in the graph.
+        //TODO look for negative weight cycle in the graph if values on diagonal of distance matrix is negative then there is negative weight cycle in the graph.
         for(int i = 0; i < distance.length; i++) {
             if(distance[i][i] < 0) {
                 throw new NegativeWeightCycleException();

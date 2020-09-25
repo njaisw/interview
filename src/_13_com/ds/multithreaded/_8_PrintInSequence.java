@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * Implement increment(), decrement() and printVar() methods such that the following series is printed:
  * 0 1 2 3 4 5 4 3 2 1 0 1 2 3 4 5 4 3 2 1 ... (repeating)
  */
-public class PrintInSequence {
+public class _8_PrintInSequence {
 
     //TODO all the variables are volatile here
     private volatile int val = 0;
@@ -50,7 +50,7 @@ public class PrintInSequence {
     }
 
     public static void main(String args[]) {
-        PrintInSequence printInSequence = new PrintInSequence();
+        _8_PrintInSequence printInSequence = new _8_PrintInSequence();
         //TODO Method reference
         Thread t1 = new Thread(printInSequence::runIncrement);
         t1.start();

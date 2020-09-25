@@ -1,0 +1,12 @@
+
+^$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.( •ÅÒ
+]$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(ÍòôG
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").( Û‹§
+N
+squid:S106G"9Replace this use of System.out or System.err by a logger.(Î·H
+Isquid:S1135
+"2Complete the task associated to this TODO comment.(ñê£º
+Nsquid:S1135;"2Complete the task associated to this TODO comment.(‚ãƒºÿÿÿÿÿ
+psquid:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(çôÚÇ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Îç»Åÿÿÿÿÿ
+qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°†ÔÂÿÿÿÿÿ8¥şÿÁË.

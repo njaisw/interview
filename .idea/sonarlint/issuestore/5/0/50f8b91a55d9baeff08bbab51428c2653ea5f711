@@ -1,0 +1,13 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(’ÎÁÄ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( Ý‚‘ýÿÿÿÿ
+Osquid:S1197"8Move the array designator from the variable to the type.(”¥™ª
+Osquid:S1197"8Move the array designator from the variable to the type.(”¥™ª
+Tsquid:S1197"8Move the array designator from the variable to the type.(Ñ€ã´ùÿÿÿÿ
+Tsquid:S1197+"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
+Nsquid:S1197,"8Move the array designator from the variable to the type.(¡š³=
+Osquid:S1197	"8Move the array designator from the variable to the type.(ŠÛ‚š
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÃÖŸ¿øÿÿÿÿ

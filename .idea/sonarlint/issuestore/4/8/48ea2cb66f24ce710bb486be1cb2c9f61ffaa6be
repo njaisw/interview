@@ -1,0 +1,10 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ûÖÄ½şÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.(ıºŒ‘
+dsquid:CallToDeprecatedMethod7"7Remove this use of "insertRecursive"; it is deprecated.(ÎÔÂşÿÿÿÿ
+Lsquid:S1133;"5Do not forget to remove this deprecated code someday.(”Êô¾
+Psquid:MissingDeprecatedCheck;"(Add the missing @deprecated Javadoc tag.(”Êô¾
+Lsquid:S1133b"5Do not forget to remove this deprecated code someday.(ÙØîØ
+Psquid:MissingDeprecatedCheckb"(Add the missing @deprecated Javadoc tag.(ÙØîØ
+Jsquid:S1135ƒ"2Complete the task associated to this TODO comment.(¿Ã”Ù
+Jsquid:S1135…"2Complete the task associated to this TODO comment.(ºıè°

@@ -88,7 +88,7 @@ public class _1_BoundedBlockingQueue_IMP_3<T> {
         //acquire lock on lock object
         lock.lockInterruptibly();
         try{
-            //keep trying if you do not have space available in queue or time out is reached.
+            //todo keep trying if you do not have space available in queue or time out is reached.
             while(count == items.length){
                 if(left <= 0){
                     return false;

@@ -1,0 +1,20 @@
+
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(É¤ „ÿÿÿÿÿ
+psquid:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(Öø‘ò
+fsquid:S00100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Êé½
+Nsquid:S1135G"2Complete the task associated to this TODO comment.(¢þŒÝýÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸×µ±ÿÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰É†þÿÿÿÿ
+Nsquid:S11350"2Complete the task associated to this TODO comment.(áó­¦úÿÿÿÿ
+ksquid:S00100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ÆÔ¨ùÿÿÿÿ
+Isquid:S11353"2Complete the task associated to this TODO comment.(ÄÀ‰
+usquid:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(±çÅ»ûÿÿÿÿ
+usquid:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(Ì¬ íýÿÿÿÿ
+osquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÒŒ£
+T
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ÏÒªáüÿÿÿÿ
+Tsquid:S1197S"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥‰±þùÿÿÿÿ
+T
+squid:S106^"9Replace this use of System.out or System.err by a logger.(®ýáëûÿÿÿÿ

@@ -18,7 +18,7 @@ class ThreadPool {
  * update maxSize in between which will change number of threads executing
  * http://tutorials.jenkov.com/java-concurrency/thread-pools.html
  */
-public class ThreadPoolThrottling {
+public class _11_ThreadPoolThrottling {
 
 	private int maxSize = 0;
 	ThreadPool threadPool;
@@ -28,7 +28,7 @@ public class ThreadPoolThrottling {
 	private boolean isExecuting = false;
 	private Object monitor = new Object();
 
-	public ThreadPoolThrottling(int size, ThreadPool threadPool) {
+	public _11_ThreadPoolThrottling(int size, ThreadPool threadPool) {
 		maxSize = size;
 		this.threadPool = threadPool;
 	}
@@ -111,7 +111,7 @@ public class ThreadPoolThrottling {
 
 	public static void main(String args[]) throws InterruptedException {
 		ThreadPool threadPool = new ThreadPool();
-		ThreadPoolThrottling impl = new ThreadPoolThrottling(4, threadPool);
+		_11_ThreadPoolThrottling impl = new _11_ThreadPoolThrottling(4, threadPool);
 		int i;
 		for (i = 0; i < 10; i++) {
 			MyTask runnable = new MyTask(i);

@@ -22,7 +22,7 @@ public class CircularQueue_IMP_2<T> {
 			rear = 0;
 		} else if (front == (rear + 1) % QUEUE_LENGTH) {
 			// If queue is full
-			throw new IllegalArgumentException();
+			throw new IllegalArgumentException("Queue is Full");
 		} else {
 			rear = (rear + 1) % QUEUE_LENGTH;
 			data[rear] = t;

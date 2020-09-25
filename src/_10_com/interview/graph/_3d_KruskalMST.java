@@ -41,6 +41,7 @@ public class _3d_KruskalMST {
         //TODO sort all edges in non decreasing order
         //TODO collections sort on the list of edges
         Collections.sort(allEdges, edgeComparator);
+
         _3da_A_DisjointSet disjointSet = new _3da_A_DisjointSet();
 
         //TODO create as many disjoint sets as the total vertices

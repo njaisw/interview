@@ -24,6 +24,14 @@ public class _30_ConvertOneWordToAnother {
         queue.add(word1);
         visited.add(word1);
          //TODO 3:Iterate while queue is not empty
+
+        /**
+         *  dictionary.add("cat");
+         *  dictionary.add("did");
+         *  dictionary.add("pat");
+         *  dictionary.add("pit");
+         *  dictionary.add("pid");
+         */
         while (queue.size() != 0) {
             //TODO 4: poll queue and seach the dictionary
             String word = queue.poll();

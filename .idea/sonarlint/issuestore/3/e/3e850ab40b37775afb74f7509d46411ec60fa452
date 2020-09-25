@@ -1,0 +1,13 @@
+
+t
+squid:S135#"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
+t
+squid:S1353"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(œý®É
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏéÃµûÿÿÿÿ
+Hsquid:S1135"2Complete the task associated to this TODO comment.(½õºo
+Isquid:S1135"2Complete the task associated to this TODO comment.(¿¢›À
+Nsquid:S1135""2Complete the task associated to this TODO comment.(”„Ï¯ÿÿÿÿÿ
+Isquid:S1135)"2Complete the task associated to this TODO comment.(©à²â
+Isquid:S1135*"2Complete the task associated to this TODO comment.(ÁÄµ‚
+Osquid:S1197G"8Move the array designator from the variable to the type.(‘–µ¥

@@ -1,0 +1,11 @@
+
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€—¡Óùÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€–ÌÖøÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.(ÞÑøÉ
+T
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ù´ÝÚþÿÿÿÿ
+T
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+T
+squid:S1067"9Replace this use of System.out or System.err by a logger.(²èõ±ûÿÿÿÿ
+Tsquid:S1197;"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ

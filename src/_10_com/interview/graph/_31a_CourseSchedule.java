@@ -58,6 +58,7 @@ class _31a_CourseSchedule {
                 int course = queue.poll();
                 //TODO increment counter when there is a poll from queue
                 coursesPossible++;
+                //TODO check if graph contains Key as it is directed graph
                 if(graph.containsKey(course)){
                     //TODO for each child of the parent-course
                     for(int i = 0; i < graph.get(course).size(); i++){

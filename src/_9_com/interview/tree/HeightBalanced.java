@@ -29,8 +29,8 @@ public class HeightBalanced {
             return -1;
         }
         int diff = Math.abs(left - right);
-        //TODO remember isBalanced
 
+        //TODO remember isBalanced , returns the height is balanced else -1
         return diff <= 1 ? (Math.max(left, right) + 1) : -1;
     }
 }

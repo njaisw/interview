@@ -40,6 +40,8 @@ public class MaximumHistogram_IMP_3 {
 		int maxArea = 0;
 		int area = 0;
 		int i;
+
+		//TODO remember the i
 		for (i = 0; i < input.length;) {
 			//TODO push greater inputs on the stack top, it pushes index but not the element
 			if (stack.isEmpty() || input[stack.peekFirst()] <= input[i]) {

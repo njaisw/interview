@@ -40,8 +40,7 @@ public class MaximumOfSubarrayOfSizeK_3 {
         int index=1;
         //continue from k till end of the input array
         for (int i = k; i < input.length; i++) {
-            //if index of peek is k distance from i then its no value to us.
-            //throw it away
+            //TODO if index of peek is k distance from i then its no value to us throw it away
             if (i - k + 1 > queue.peekFirst()) {
                 queue.pollFirst();
             }

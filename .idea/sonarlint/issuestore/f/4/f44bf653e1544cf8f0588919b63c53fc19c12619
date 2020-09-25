@@ -1,0 +1,13 @@
+
+†squid:S1319+"oThe type of the "res" object should be an interface such as "List" rather than the implementation "LinkedList".(Áåü˜
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùâÇ¶øÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸×µ±ÿÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(€×ôÌùÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(¨õÿÆùÿÿÿÿ
+Isquid:S1135!"2Complete the task associated to this TODO comment.(ô†“ƒ
+Isquid:S1135#"2Complete the task associated to this TODO comment.( Å “
+Hsquid:S1135,"2Complete the task associated to this TODO comment.(ÿ¥úf
+Isquid:S1135."2Complete the task associated to this TODO comment.(¨¢Úˆ
+Nsquid:S11352"2Complete the task associated to this TODO comment.(ƒ„Ëøÿÿÿÿ
+O
+squid:S106:"9Replace this use of System.out or System.err by a logger.(òşé¿

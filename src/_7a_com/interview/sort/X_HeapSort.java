@@ -1,4 +1,4 @@
-package _7a_com.interview.sort_done;
+package _7a_com.interview.sort;
 
 import java.util.Arrays;
 

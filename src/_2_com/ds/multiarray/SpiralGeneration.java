@@ -23,6 +23,8 @@ public class SpiralGeneration {
         int left = 0;
         int right = n - 1;
         int index = 1;
+        //TODO while up less than and equal to down and left is less than and equal to right
+        //TODO up++ and left++ and down-- and right--
         while (up <= down && left <= right) {
             for (int i = left; i <= right; i++) {
                 result[up][i] = index++;

@@ -9,12 +9,16 @@ public class ArithmeticProgressionSearch_IMP_3_done {
     public int search(int input[]){
         int low =0;
         int high = input.length-1;
+
+        //TODO calculate ap in binary search
         int ap = (input[high] - input[low])/(input.length);
+
         int middle = -1;
         while(low <= high){
             middle = (low + high)/2;
             if(input[middle] == input[0] + (middle)*ap){
                 low = middle+1;
+                //TODO check condition
             }else if((input[middle] > input[0] + (middle)*ap) && 
                     input[middle-1] == input[0] + (middle-1)*ap){
                 return input[0] + (middle)*ap;

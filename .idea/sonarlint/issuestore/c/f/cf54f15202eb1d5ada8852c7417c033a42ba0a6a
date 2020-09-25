@@ -1,0 +1,22 @@
+
+nsquid:S00117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¨‘şÿÿÿÿ
+Tsquid:S1197#"8Move the array designator from the variable to the type.(í¨‘şÿÿÿÿ
+nsquid:S00117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¨‘şÿÿÿÿ
+isquid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç…
+isquid:S00117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥‘µì
+;squid:S16596"Declare "j" on a separate line.(á”æåşÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(ÕÕïüÿÿÿÿ
+Osquid:S1197-"8Move the array designator from the variable to the type.(ç…
+Tsquid:S1197#"8Move the array designator from the variable to the type.(í¨‘şÿÿÿÿ
+dsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(øØÊ'
+isquid:S00117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­óáÕ
+isquid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç…
+Isquid:S11358"2Complete the task associated to this TODO comment.(ëá››
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(óË†ºûÿÿÿÿ
+O
+squid:S106;"9Replace this use of System.out or System.err by a logger.(Ç“­§
+Osquid:S1197I"8Move the array designator from the variable to the type.(­óáÕ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áÊ«¡
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÕïüÿÿÿÿ
+Osquid:S1197-"8Move the array designator from the variable to the type.(ç…
+Osquid:S1197G"8Move the array designator from the variable to the type.(¥‘µì

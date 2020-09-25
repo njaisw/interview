@@ -1,0 +1,11 @@
+
+usquid:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(àâåŞúÿÿÿÿ
+O
+squid:S106U"9Replace this use of System.out or System.err by a logger.(òşé¿
+psquid:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(í¾óô
+usquid:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(é¥ı¤úÿÿÿÿ
+usquid:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(£Ğ¥Àùÿÿÿÿ
+psquid:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").( “Ô
+psquid:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(äõİ¹
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áÊ«¡
+Isquid:S1135)"2Complete the task associated to this TODO comment.(…ïœ†

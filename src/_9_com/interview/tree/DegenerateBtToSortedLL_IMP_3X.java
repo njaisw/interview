@@ -33,15 +33,12 @@ public class DegenerateBtToSortedLL_IMP_3X {
         if(root == null){
             return null;
         }
-        
-        Node left = root.left;
-        Node right = root.right;
-        //TODO remember to nullify left and right nodes of the root
+
+        Node left = degenerate(root.left);
+        Node right = degenerate(root.right);
+
         root.left = null;
         root.right = null;
-        //TODO remember the left assignment
-        left = degenerate(left);
-        right = degenerate(right);
         left = merge(left, root);
         return merge(left, right);
     }

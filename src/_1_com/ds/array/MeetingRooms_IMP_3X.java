@@ -68,7 +68,10 @@ public class MeetingRooms_IMP_3X {
         Arrays.sort(intervals, (a, b) ->  a.start - b.start);
         //TODO Stores the min end time
         PriorityQueue<Integer> pq = new PriorityQueue<>();
+        //TODO it compares
         for (Interval interval: intervals) {
+            //30<5, 10<15
+            //TODO add only ends, compares with start of last element if less than pops up
             if(!pq.isEmpty()&& pq.peek()<=interval.start)
                 pq.poll();
             pq.offer(interval.end);

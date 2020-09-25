@@ -1,0 +1,12 @@
+
+wsquid:S14888"[Immediately return this expression instead of assigning it to the temporary variable "val".(àé¨şÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(• Íó
+Csquid:S1612E",Replace this lambda with a method reference.(Å³
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏéÃµûÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(Œãâˆûÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(ó´Ü’şÿÿÿÿ
+Isquid:S1135!"2Complete the task associated to this TODO comment.(°’¨Ò
+^squid:HiddenFieldCheck+"7Rename "pos" which hides the field declared at line 34.(í€¹Ùûÿÿÿÿ
+Isquid:S1135*"2Complete the task associated to this TODO comment.(»”æ§
+Nsquid:S11357"2Complete the task associated to this TODO comment.(òÕÅõıÿÿÿÿ
+Osquid:S1197@"8Move the array designator from the variable to the type.(‘–µ¥

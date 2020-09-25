@@ -14,6 +14,7 @@ public class LongestSubstringWithKDistinctChars {
 		int maxlength = 0;
 
 		for (int i = 0; i < inputs.length; i++) {
+			//TODO if map does  contain then increment i
 			if (countmap.containsKey(inputs[i])) {
 				int count = countmap.get(inputs[i]);
 				countmap.put(inputs[i], count++);
@@ -21,6 +22,7 @@ public class LongestSubstringWithKDistinctChars {
 					maxlength = i - start + 1;
 				}
 			} else {
+				//TODO if map size is less than k then put
 				if (countmap.size() < k) {
 					countmap.put(inputs[i], 1);
 					if (maxlength < i - start + 1) {
@@ -28,6 +30,7 @@ public class LongestSubstringWithKDistinctChars {
 					}
 
 				}else {
+					  //TODO else remove start from map, decrement count or remove
                       while(countmap.size()>=k) {
                     	 if (countmap.get(inputs[start])!=null) {
                     		 if (countmap.get(inputs[start])>0) {

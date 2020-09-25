@@ -22,7 +22,9 @@ public class SimplyPath_IMP_2 {
 
     public String simplifyPath(String path) {
         Deque<String> stack = new LinkedList<>();
+        //TODO String tokenizer
         StringTokenizer token = new StringTokenizer(path, "/");
+
         while (token.hasMoreTokens()) {
             String tok = token.nextToken();
             if (tok.equals(".")) {
@@ -35,6 +37,7 @@ public class SimplyPath_IMP_2 {
                 stack.offerFirst(tok);
             }
         }
+
         StringBuffer buff = new StringBuffer();
         if (stack.isEmpty()) {
             buff.append("/");

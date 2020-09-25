@@ -6,7 +6,7 @@ package _10_com.interview.graph;
 public class _32_NumberOfIsland {
 
     public int numberOfIsland(int[][] graph){
-        
+        //TODO visited is 2d array here
         boolean[][] visited = new boolean[graph.length][graph.length];
         int count = 0;
         for(int i=0; i < graph.length ; i ++){
@@ -27,6 +27,8 @@ public class _32_NumberOfIsland {
             return;
             
         }
+        if (visited[i][j])
+            return;
         //TODO remember the return condition
         visited[i][j] = true;
         //TODO VERY IMP: Remember the return here

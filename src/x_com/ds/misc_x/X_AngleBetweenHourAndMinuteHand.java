@@ -1,4 +1,4 @@
-package _4a_com.ds.misc_x;
+package x_com.ds.misc_x;
 
 /**
  * Find small angle between hour and minute hand in analog clock

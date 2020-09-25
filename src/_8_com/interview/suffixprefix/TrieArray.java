@@ -1,7 +1,4 @@
-package _8_com.interview.suffixprefix_done;
-
-import java.util.HashMap;
-import java.util.Map;
+package _8_com.interview.suffixprefix;
 
 class TrieNode {
 

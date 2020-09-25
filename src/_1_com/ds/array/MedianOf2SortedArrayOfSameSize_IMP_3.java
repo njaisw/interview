@@ -28,6 +28,7 @@ public class MedianOf2SortedArrayOfSameSize_IMP_3 {
 
 		float median_a = getMedian(a, start_a, end_a);
 		float median_b = getMedian(b, start_b, end_b);
+
 		// TODO Remember calculation of start and mid
 		int mid_a = (start_a + end_a) / 2;
 		int mid_b = (start_b + end_b) / 2;

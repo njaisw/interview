@@ -1,0 +1,8 @@
+
+squid:S41651"eRemove this useless assignment; "slowptr" already holds the assigned value along all execution paths.(ƒÿ¥òÿÿÿÿÿ
+[squid:S2259("EA "NullPointerException" could be thrown; "fastptr" is nullable here.(µüŸY
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­ğüüÿÿÿÿ
+Nsquid:S11352"2Complete the task associated to this TODO comment.(”§ãüÿÿÿÿ
+Isquid:S11355"2Complete the task associated to this TODO comment.(è£
+T
+squid:S106R"9Replace this use of System.out or System.err by a logger.(¼¦¡ùÿÿÿÿ

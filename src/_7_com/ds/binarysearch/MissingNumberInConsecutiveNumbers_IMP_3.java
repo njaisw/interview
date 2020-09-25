@@ -10,10 +10,10 @@ public class MissingNumberInConsecutiveNumbers_IMP_3 {
 		int lowNum = arr[0];
 		int low = 0;
 		int high = arr.length - 1;
-		int middle = (low + high) / 2;
+		int middle = 0;
 		while (low <= high) {
 			middle = (low + high) / 2;
-			// TODO middle sum, middle is one extra than expected
+			// TODO middle sum, middle is one extra than expected, always check middle >0  while checking midlle -1
 			if (arr[middle] == (middle + 1 + lowNum) && middle - 1 >= 0 && arr[middle - 1] == (middle + lowNum - 1)) {
 				return middle + lowNum;
 				// TODO All elements are consequetive on left

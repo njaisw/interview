@@ -25,7 +25,9 @@ public class _3da_A_DisjointSet {
     private Map<Long, Node> map = new HashMap<>();
 
     class Node {
+        //TODO 3 parameters
         long data;
+        //TODO Parent is node
         Node parent;
         int rank;
     }
@@ -36,6 +38,7 @@ public class _3da_A_DisjointSet {
     public void makeSet(long data) {
         Node node = new Node();
         node.data = data;
+        //TODO parent is node
         node.parent = node;
         node.rank = 0;
         map.put(data, node);
@@ -43,7 +46,7 @@ public class _3da_A_DisjointSet {
 
     /**
      * Combines two sets together to one.
-     * Does union by rank
+     * TODO Does union by rank
      *
      * @return true if data1 and data2 are in different set before union else false.
      */
@@ -54,7 +57,7 @@ public class _3da_A_DisjointSet {
         Node parent1 = findSet(node1);
         Node parent2 = findSet(node2);
 
-        //if they are part of same set do nothing
+        //TODO if they are part of same set do nothing why data???
         if (parent1.data == parent2.data) {
             return false;
         }
@@ -88,7 +91,7 @@ public class _3da_A_DisjointSet {
         if (parent == node) {
             return parent;
         }
-        //NODE PARENT IS COMPRESSED
+        //TODO NODE PARENT IS COMPRESSED
         //TODO 2->1
         node.parent = findSet(node.parent);
         return node.parent;
